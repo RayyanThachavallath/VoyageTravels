@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 4rem;
+    background-color: #4A6741;
+}
+
+.Logo{
+    height: 3rem;
+}
+.nav-items{
+    color: white !important;
+    font-family: 'Quicksand' , Times, serif;
+    font-weight: 300;
+    border-radius: 50px;
+}
+.nav-items:hover{
+    color: #4A6741 !important;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.nav-icon{
+    font-size: 1.6rem;
+    margin-left: 0.7rem;
+    color: white !important;
+    margin-bottom: 0.2rem;
+}
+
+.icon-fb:hover{
+    color: #1877F2 !important;
+    transform: translateY(-2px);
+}
+
+.icon-ig:hover{
+    color:#C13584 !important;
+    transform: translateY(-2px);
+}
+.icon-in:hover{
+    color:#0077B5 !important;
+    transform: translateY(-2px);
+}
+
+main{
+    height: 100vh;
+    background-size: cover;
+    background-image: url("Cover image.png");
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtext-cover{
+    margin: 0;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+}
+.heading-cover{
+    font-family: 'Anton' ,sans-serif;
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+}
+.hr-cover{
+    color: white;
+    width: 5px solid;
+}
+.para-cover{
+    color: white;
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 1.5rem;
+}
+.about-section{
+    padding-top: 1rem;
+}
+.about-title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4A6741;
+}
+.about-subtitle{
+    text-align: center;
+    font-weight: 300;
+    
+}
+.hr-about-title{
+    color: #3c5036;
+    height: 1em solid;
+}
+.about-content{
+    text-align: center;
+    font-family: 'Kanit' ,sans-serif;
+}
+.Explore-div{
+    text-align: center;
+}
+.Explore-button{
+    text-decoration: none !important;
+    color: #4A6741;
+    border: 1.5px solid #4A6741;
+    padding: 0.6rem;
+    border-radius: 20px;
+}
+
+.Explore-button:hover{
+    color: white;
+    background-color: #4A6741;
+}
+
+.hr-content-after{
+    color: #3c5036;
+    height: 0.4rem;
+    margin-top: 3rem;
+}
+
+
+.master-card{
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+}
+
+.master-card:hover{
+    transform: scale(1.15);
+}
+
+.Card-country-Name{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.Card-country-noPerson{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.Explore-button-package{
+    margin-top: 2rem;
+    text-decoration: none !important;
+    color: #4A6741;
+    border: 1.5px solid #4A6741;
+    padding: 0.6rem;
+    border-radius: 20px;
+}
+
+.Explore-button-package:hover{
+    color: white;
+    background-color: #4A6741;
+}
+
+.book-btn{
+    background-color: #4A6741 !important;
+    color: white !important;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.book-btn:hover{
+    background: white !important;
+    color: #4A6741 !important;
+    border: 1px solid #4A6741 !important;
+    transform: translateY(-3px);
+}
+
+.guide-card{
+    background: #4A6741 !important;
+    margin-bottom: 1rem;
+}
+
+.experience-title{
+    color: white !important;
+}
+
+.testmonial-content{
+    text-align: center;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.testmonial-image{
+    height: 3.5rem;
+    display: block;
+}
+.testmonial-host{
+    font-size: 1rem;
+    text-align: center;
+}
+.testmonial-company{
+    font-size: 0.7rem;
+    text-align: center;
+}
+.testmonial-company-name{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.contact-container{
+    height: auto;
+    background-size: cover;
+    background-image: url("Bali Blur.png");
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button{
+    background:#4A6741 !important;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+footer{
+    height: auto;
+    background-color: #4A6741;
+    
+}
+.footer-logo{
+    height: 7rem;
+    padding: 1rem;
+    
+
+}
+.quick-links {
+    display: flex;  /* Make the navigation element a flexbox container */
+    flex-direction: column;
+    
+}
+.links{
+    color: white !important;
+}
+
+.follow-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-links{
+    margin-bottom: 0.5rem;
+    color: white !important;
+}
+.footer-bye{
+    color: white !important;
+    padding-bottom: 0.5rem;
+}
+.footer-author{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/* about page code */
+
+.about-page-parallax{
+    height: auto;
+    background-size: cover;
+    background-image: url("Machu pichu.png");
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testmonial-div{
+    height: auto;
+    width: 100%;
+    padding: 2rem;
+    background: #4A6741;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
